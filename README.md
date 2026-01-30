@@ -49,13 +49,30 @@ It simulates common real-world tasks performed by Linux system administrators wh
 
 ## Environment
 
-- AWS EC2 instance running RHEL 9  
+- VMware Virtual Machine running RHEL 9 
 
 ---
 
 ## Result
 
 Successfully configured additional storage with persistent mounts and active swap, reflecting real-world Linux storage administration workflows.
+
+## Documentation
+
+Screenshots demonstrating each major stage of the project (disk detection, partitioning, mounting, swap configuration, and persistence after reboot) are available in the **documentation/** folder.
+
+## Key Commands & Configuration Used
+
+- lsblk – Display block devices and disk layout  
+- blkid – Show filesystem UUIDs and types  
+- fdisk / parted – Create disk partitions  
+- mkfs – Create filesystems on partitions  
+- mount / umount – Mount and unmount filesystems  
+- /etc/fstab – Configure persistent mounts and swap  
+- mkswap – Create swap area  
+- swapon / swapoff – Enable and disable swap  
+
+---
 
 
 
