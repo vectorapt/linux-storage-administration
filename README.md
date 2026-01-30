@@ -57,9 +57,13 @@ It simulates common real-world tasks performed by Linux system administrators wh
 
 Successfully configured additional storage with persistent mounts and active swap, reflecting real-world Linux storage administration workflows.
 
+---
+
 ## Documentation
 
 Screenshots demonstrating each major stage of the project (disk detection, partitioning, mounting, swap configuration, and persistence after reboot) are available in the **documentation/** folder.
+
+---
 
 ## Key Commands & Configuration Used
 
@@ -72,7 +76,6 @@ Screenshots demonstrating each major stage of the project (disk detection, parti
 - mkswap – Create swap area  
 - swapon / swapoff – Enable and disable swap  
 
----
 
 
 
