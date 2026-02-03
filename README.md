@@ -61,7 +61,7 @@ Successfully configured additional storage with persistent mounts and active swa
 
 ## Documentation
 
-Screenshots demonstrating each major stage of the project (disk detection, partitioning, mounting, swap configuration, and persistence after reboot) are available in the **documentation/** folder.
+Screenshots demonstrating each major stage of the project (disk detection, partitioning, mounting, swap configuration, and persistence after reboot) are available in the documentation folder.
 
 ---
 
