@@ -29,11 +29,12 @@ It simulates common real-world tasks performed by Linux system administrators wh
 
 ## Implementation Overview
 
-1. Attached an additional disk and verified it within the system  
-2. Created disk partitions for storage and swap  
-3. Formatted partitions with Linux filesystems  
-4. Mounted storage partitions and configured persistence using `/etc/fstab`  
-5. Created and enabled swap space  
+1. Added a new disk (`/dev/sda`) with **5 GB** capacity and verified it in the system  
+2. Created a **3 GB partition (`/dev/sda1`)** for storage and used the remaining **2 GB** for swap space  
+3. Formatted the storage partition with a Linux filesystem(ext4)  
+4. Mounted the storage partition at `/newdisk` and configured a **persistent mount** using `/etc/fstab`  
+5. Created and enabled swap space (including a swap partition and swap file) and ensured persistence across reboots  
+
 
 ---
 
